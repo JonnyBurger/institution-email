@@ -1,0 +1,20 @@
+{
+  "name": "is-institutional-email",
+  "version": "1.0.0",
+  "description": "Check whether an email is institutional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyBurger/institution-email.git"
+  },
+  "keywords": [],
+  "author": "Jonny <jonathanburger11@gmail.com> (http://jonny.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyBurger/institution-email/issues"
+  },
+  "homepage": "https://github.com/JonnyBurger/institution-email#readme"
+}
