@@ -4,7 +4,7 @@ A module that checks whether an email address is institutional. This is a fork o
 
 ````javascript
 let isInstitutionalEmail = require('is-institutional-email');
-isInstitutionalEmail('something@stanford.edu') // true
-isInstitutionalEmail('something@something.stanford.edu') // false
-isInstitutionalEmail('something@something.stanford.edu', true) // true (accept subdomain)
+isInstitutionalEmail('something@uzh.ch') // "University of Zurich"
+isInstitutionalEmail('something@something.uzh.ch') // false
+isInstitutionalEmail('something@something.uzh.ch', true) // "University of Zurich" (accept subdomain)
 ````
